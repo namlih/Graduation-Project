@@ -33,6 +33,13 @@ Non-trainable params: 0
 
 ```
 ## Running Time (seconds) Comparison on Different Configurations of Models
+```python
+model.fit(x_train, y_train,
+          batch_size=batch_size, 
+          epochs=100, 
+          validation_data=(x_test, y_test),
+          verbose=1)
+```
 |      Batch/Device/Run. Time      | LSTM  | CuDNNLSTM |
 | :------------------------------: | :---: | :-------: |
 | Batch Size:**1** Device: **CPU** |  724  |     -     |
