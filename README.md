@@ -16,7 +16,6 @@ model.add(Dense(4, activation='softmax'))
 model.summary()
 ```
 ```python
-"""
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -31,7 +30,7 @@ dense_8 (Dense)              (1, 4)                    132
 Total params: 120,740
 Trainable params: 120,740
 Non-trainable params: 0
-"""
+
 ```
 ## Running Time(seconds) Comparison with Different Configurations
 |      Batch/Device/Run. Time      | LSTM  | CuDNNLSTM |
