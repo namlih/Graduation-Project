@@ -32,7 +32,7 @@ Trainable params: 120,740
 Non-trainable params: 0
 
 ```
-## Running Time(seconds) Comparison with Different Configurations
+## Running Time (seconds) Comparison on Different Configurations of Models
 |      Batch/Device/Run. Time      | LSTM  | CuDNNLSTM |
 | :------------------------------: | :---: | :-------: |
 | Batch Size:**1** Device: **CPU** |  724  |     -     |
